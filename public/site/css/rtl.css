@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+             
+body{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.request-form .head-title{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    letter-spacing: 0px;
+}
+.under{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    letter-spacing: 0px;
+}
+.page-heading h1 ,
+.page-heading h2 {
+    font-size: 26px;
+    letter-spacing: 0px;
+}
+.page-heading .breadcrumb i{
+	margin-right: 0;
+    margin-left: 5px;
+}
+.page-heading .breadcrumb li ,
+.page-heading .breadcrumb a {
+	text-transform: capitalize;
+	letter-spacing: 0px;
+}
+.section-title{
+    letter-spacing: 0px;
+    font-size: 26px;
+}
+.section-title span{
+	font-family: 'Droid Arabic Kufi', sans-serif;
+	font-size: 12px;
+	letter-spacing: 0px;
+}
+.custom-btn {
+    letter-spacing: 0px;
+}
+.custom-btn i{
+	margin-right: 0px;
+    margin-left: 5px;
+}
+.form-group {
+    text-align: right;
+}
+.form-title{
+	text-align: right;
+	letter-spacing: 0px;
+}
+.form-group label {
+    text-align: right;
+    letter-spacing: 0px;
+    padding-right: 15px;
+    padding-left: 0px;
+}
+.form-control {
+    letter-spacing: 0px;
+    font-size: 12px;
+}
+.dot-lists li{
+    padding-right: 20px;
+    padding-left: 0px;
+    font-size: 14px;
+    margin: 10px auto;
+}
+.dot-lists li:before{
+	left: auto;
+    right: 0;
+}
+.top-header .social-links{
+	text-align:left;
+}
+.header.main-header .logo{
+    left: auto;
+    right: 0;
+}
+.header .ul.navbar-nav {
+    float: left;
+}
+.header .nav-main > ul.navbar-nav > li:last-child > a{
+	border-right: 0;
+    border-left: 0;
+}
+.header .nav-main > ul.navbar-nav > li > a{
+    letter-spacing: 0px;
+    border-right: 0;
+    border-left: 1px solid #b1b1b1;
+}
+.header nav .navbar-nav{
+	float: left;
+}
+.inner .info-text , .coming p{
+    letter-spacing: 0px;
+    text-alight: right;
+    padding-right: 0px;
+    padding-left: 50px;
+}
+
+@media all and (min-width:992px) {
+    ul.navbar-nav > li.dropdown > ul.dropdown-menu {
+        right: 0;
+        left: auto;
+    }
+    ul.navbar-nav > li.dropdown ul.dropdown-menu > li > a {
+        text-align: right;
+        letter-spacing: 0px;
+        font-family: 'Droid Arabic Kufi', sans-serif;
+        font-size: 11px;
+    }
+     ul.navbar-nav > li.dropdown ul.dropdown-menu > li > a > img{
+        margin-right: 0px;
+         margin-left: 10px;
+    }
+     
+}	
+@media (max-width: 991px) {
+    .header ul.navbar-nav {
+        float: none;
+        text-align: right;
+    }
+    .nav-main > ul.navbar-nav > li {
+        text-align: right;
+    }
+   .header .nav-main > ul.navbar-nav > li a ,
+   .main-header.header-scroll .nav-main > ul.navbar-nav > li a {
+        text-align: right;
+    }
+    .btn-responsive-nav {
+        right: auto;
+        left: 15px;
+    }
+    .header .nav-main ul.navbar-nav > li.dropdown a.extra {
+        float: left;
+    } 
+     ul.navbar-nav > li.dropdown ul.dropdown-menu > li > a > img{
+         margin-right: 0px;
+         margin-left: 10px;
+    }
+}
+.up-btn{
+	right: auto;
+    left: 15px;
+}
+.mute-video{
+	right: auto;
+    left: 15px;
+}
+.up-btn.custom-btn span i{
+	margin-right: auto;
+    margin-left: 0;
+}
+.fix-btn{
+	left: auto;
+    right: 15px;
+}
+.footer .widget .widget-title{
+    letter-spacing: 0px;
+    border-right: 3px solid #e31519;
+    border-left: 0;
+    padding-right: 10px;
+    padding-left: 0;
+    font-size: 13px;
+}
+.footer .widget .widget-content ul li a{
+    padding-left: 0;
+    padding-right: 10px;
+    letter-spacing: 0px;
+    font-size: 11px;
+}
+.footer .widget .widget-content ul li a:before {
+    left: auto;
+    right: 0;
+    border-left-color: transparent;
+    border-right-color: #fff;
+}
+.footer .widget .widget-content .contact-info li{
+    padding-left: 0;
+    padding-right: 50px;
+    font-size: 13px;
+}
+.footer .widget .widget-content .contact-info li i{
+    left: auto;
+    right: 0;
+}
+.footer .copyrights{
+    letter-spacing: 0px;
+}
+.footer .social{
+    text-align: left;
+}
+.social{
+	text-align:right;
+}
+.social li a{
+    margin-left: 0;
+    margin-right: auto;
+}
+.newsletter-form .head-title{
+    letter-spacing: 0px;
+    text-align: right;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-size: 18px;
+}
+.newsletter-form .info-text{
+	letter-spacing: 0px;
+}
+.newsletter-form .form-group .form-control{
+    border-radius: 0px 3px 3px 0px;
+}
+.newsletter-form .form-group .custom-btn{
+    left: -3px;
+    right: auto;
+    border-radius: 3px 0 0 3px;
+}
+.newsletter-form .dot-lists li{
+    margin: 0 0 0 12px;
+}
+.home-works li{
+    float: right;
+    border-right: 0;
+    border-left: 1px solid rgba(0,0,0,.6);
+}
+.home-works li:last-child{
+	border-right: 1px solid rgba(0,0,0,.6);
+    border-left: 0;
+}
+.home-works li a{
+    letter-spacing: 0px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    font-size: 14px;
+}
+.home-works li a img{
+    margin: 5px 5px 5px 10px;
+}
+.about-cont{
+    text-align: right;
+}
+.about-cont span{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+.about-cont .head-title{
+    letter-spacing: 0px;
+    font-size: 28px;
+}
+.about-cont .info-text{
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+.popup-video img{
+	margin-left: 0px;
+    margin-right: 4px;
+}
+.serv-item .name{
+    letter-spacing: 0px;
+}
+.service .head-title{
+    letter-spacing: 0px;
+}
+.service .info-text{
+    letter-spacing: 0px;
+}
+.event-item{
+	direction:rtl;
+}
+.event-item .event-img .date{
+    left: auto;
+    right: 15px;
+}
+.event-item .event-cont .title{
+	font-size:14px;
+}
+.event-item .event-cont p{
+	font-size: 12px;
+}
+.next-event .head-title{
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    letter-spacing: 0px;
+    font-size: 29px;
+}
+.next-event .info-text{
+	letter-spacing: 0px;
+	font-size: 14px;
+}
+.next-event li{
+	letter-spacing: 0px;
+}
+#countdown-ar{
+    display: block;
+    position: relative;
+    margin:30px auto 15px;
+    max-width: 767px;
+}
+ #countdown-ar > div{
+ 	margin: 15px 5px;
+ 	padding: 15px;
+ 	min-width: 180px;
+    display: inline-block;
+    background:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    line-height:40px;
+    position: relative;
+    font-weight: 700;
+	color:#fff;
+    border-radius: 5px;
+    overflow:hidden;
+    letter-spacing: 5px;
+    color:#e31519;
+}
+#countdown-ar > div span{
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align:center;
+    display: block;
+    font-weight:400;
+    letter-spacing: 0px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    margin: 15px auto 0;
+    color:#e31519;
+}
+.gallery-fliter ul li {
+    letter-spacing: 0px;
+ }
+.gall-item .hover span{
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+.pricing-title {
+    letter-spacing: 0px;
+    font-size: 18px;
+}
+.pricing-item .dot-lists{
+	text-align: right;
+}
+.team-item .team-content{
+    text-align: right;
+    left: 0;
+    border-radius: 5px 0px 0px 5px;
+    right: 0;
+    left: auto;
+}
+.team-item .team-content .title{
+    letter-spacing: 0px;
+    text-align: right;
+}
+.team-item .team-content span{
+    letter-spacing: 0px;
+}
+.contact-form .form-title{
+    letter-spacing: 0px;
+}
+.modal-footer .custom-btn i{
+	margin-right: 0px;
+    margin-left: 5px;
+}
+.modal-title{
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.model-body{
+    text-align: left;
+    letter-spacing: 0px;
+}
+.add_ads_form .step-name{
+	letter-spacing: 0px;
+	text-align: right;
+}
+.add_ads_form .step-name .form-group{
+	min-height: 85px;
+}
+.add_ads_form .step-footer .step-control{
+    float: left;
+    text-align: left;
+}
+.add_ads_form .step-footer .step-indcat{
+    float: right;
+}
+.package-list{
+    margin-left: 0;
+    margin-right: -15px;
+}
+.package-list li a{
+    letter-spacing: 0px;
+}
+.package-list li a img{
+    float: right;
+    border-left: 1px solid #f9f9f9;
+    margin-left: 7px;
+    border-right: 0;
+    margin-right: 0;
+}
+.categ-item .categ-cont h3{
+    letter-spacing: 0px;
+}
+.categ-item .categ-cont ul li span{
+    margin-right: 0px;
+    margin-left: 7px;
+    letter-spacing: 0px;
+}
+.modal-details .head-title{
+    text-align: right;
+}
+.quot-wrap .quot-head .item-info{
+    letter-spacing: 0px;
+}
+.quot-wrap .quot-head .item-info span{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.quot-wrap .quot-footer .head-title{
+    letter-spacing: 0px;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td,
+.table>tfoot>tr>th, 
+.table>thead>tr>td,
+.table>thead>tr>th{
+    text-align: right;
+}
+.table>thead>tr>th{
+    letter-spacing: 0px;
+}
+.owl-carousel .owl-stage-outer{
+	direction: ltr;
+}
+.opin-item .opin-item-content{
+    letter-spacing: 0;
+}
+.opin-item .opin-item-content i{
+    float: right;
+}
+.opin-item .opin-item-content i:last-child{
+    float: left;
+}
+.opin-item .opin-item-img span{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.blog_item .cover a{
+transform: rotateY(180deg) !important;
+}
+.blog_item .cont a {
+  border-right: 5px solid #49b984;
+  border-left: 0;
+  padding-right: 20px;
+  padding-left: 0;
+  transform: translateX(25px);
+}
+.blog_item ul li {
+  margin: 0 0 0 10px;
+}
+.blog_item ul li:nth-child(1) {
+  letter-spacing: 1px !important;
+}
+.blog_item .cont a {
+  font-size: 14px;
+}
+.list_items li {
+  padding: 0 20px 0 0 !important;
+  text-align: right;
+}
